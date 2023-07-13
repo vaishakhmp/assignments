@@ -1,12 +1,9 @@
-// Assume the character
-var character = "a"; // Change this to any single character
+var character = "a";
 
-// Convert the character to lowercase for case-insensitive comparison
 character = character.toLowerCase();
 
-// Check if the character is a vowel or consonant
 if (character === "a" || character === "e" || character === "i" || character === "o" || character === "u") {
-  console.log("V"); // Vowel
+  console.log("V");
 } else {
-  console.log("C"); // Consonant
+  console.log("C");
 }
